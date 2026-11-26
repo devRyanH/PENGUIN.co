@@ -1,0 +1,17 @@
+.LOGO{
+    width:150px;
+    height:50px;
+}
+.navbar{
+    display:flex;
+    justify-content:space; 
+    align-items:center; 
+    width:100%;
+    gap:72%;
+}
+.navlinks{
+    display:flex; 
+    align-items:center;
+    list-style:none; 
+    gap:20px;
+}
