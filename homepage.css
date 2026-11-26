@@ -28,10 +28,16 @@ body{
     padding: 10px;
 }
 .card{
-    width: 230px;
-    height: 230px;
+    width: 20vw;
+    height: 250px;
     border: 3px solid black;
     display:flex;
     flex-direction:column;
     padding: 5px;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.card:hover{
+    width: 476px;
 }
