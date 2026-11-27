@@ -45,6 +45,7 @@ body{
     z-index: 1;
     box-sizing: border-box;
     background-color: white;
+    cursor:pointer;
 }
 .card:nth-child(5n) .incard {
     right: 0;
